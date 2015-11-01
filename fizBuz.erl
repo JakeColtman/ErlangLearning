@@ -12,4 +12,4 @@ step(3) ->
   io:format("Fiz");
   
 step(X) ->
-  io:format(X).
+  io:format("~w", [X]).
